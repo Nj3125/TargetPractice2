@@ -4,7 +4,7 @@ using System.Linq;
 
 public static class SaveSystem
 {
-    private static string baseName = "test";
+    private static string baseName = "game2test";
     private static string extension = ".json";
     public static void Save(PlayerData data)
     {
