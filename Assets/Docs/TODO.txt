@@ -1,0 +1,10 @@
+- Move all menu related functions into Scripts/Utils/MenuFunctions (with XML documentation!)
+- Add game title to Main Menu.
+- (Fix?) bug where gun does not fire accurately because of quick movement.
+
+- Bug: With new pixelation camera X & Y seem to be getting misaligned.
+    - Mouse pos is fine, the crosshair shows up where the mouse is.
+    - It is the gun that is not aiming correctly, I.E its pos is somehow mutated by the introduction of the camera.
+    - (FIXED)
+
+- Render the cursor through the render texture and not the GUI
